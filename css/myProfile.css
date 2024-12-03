@@ -1,0 +1,45 @@
+.newBtn {
+    /* padding: 0px 5px; */
+    background: #1c4d2a;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.dash {
+    color: #003c30;
+    font-weight: 400;
+}
+
+.line {
+    margin-top: 5px;
+}
+
+.vl {
+    border-left: 2px solid #d5f5d2;
+    height: 500px;
+}
+
+.form-control {
+    background-color: #d6ffd2;
+}
+
+.card {
+    background-color: #003c30 !important;
+    margin-top: 100px !important;
+}
+
+.edit {
+    margin-left: 15px;
+}
+
+.input {
+    background-color: #d6ffd2 !important;
+}
+
+@media (max-width: 500px) {
+    .formProfile {
+        margin-top: -500px !important;
+    }
+}

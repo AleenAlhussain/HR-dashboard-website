@@ -1,0 +1,18 @@
+.subBtn {
+    background: #1c4d2a;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dash {
+    color: #003c30;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .imgSup {
+        display: none;
+    }
+}

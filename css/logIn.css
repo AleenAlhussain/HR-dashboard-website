@@ -1,0 +1,46 @@
+.image {
+    background-size: cover;
+    background-image: url(../images/logpage.jpg);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.card-header {
+    background: linear-gradient(to right, #0f7862, #268d48, #b5fea7);
+}
+
+.login {
+    background: linear-gradient(to right, #379a53, #379a53, #003C30);
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.createAccount {
+    width: 100%;
+    border: 1px solid #268d48;
+    margin-top: 10px;
+    color: #268d48;
+    padding: 5px;
+}
+
+.newAcccont {
+    text-decoration: none;
+    color: #003C30;
+}
+
+.card {
+    margin-top: 150px;
+}
+
+.line {
+    justify-content: center;
+    display: block;
+    text-align: center;
+    margin-top: -31px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.fontImg {
+    color: #0f7862;
+}

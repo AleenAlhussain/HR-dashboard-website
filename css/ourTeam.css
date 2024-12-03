@@ -1,0 +1,90 @@
+.team {
+    padding: 10px 0px !important;
+    margin: 30px 90px !important;
+    background-color: #bbf29e !important;
+}
+
+.contentTeam {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #003c30;
+    justify-content: center;
+    /* margin-top: 65px; */
+}
+
+.titleTeam {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 200;
+    color: #003c30;
+}
+
+.newBtn {
+    background: #1c4d2a;
+    color: #fff;
+    padding: 0px 35px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.edit {
+    background-color: #003c30;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.list ul {
+    list-style: square;
+}
+
+.dash {
+    color: #003c30;
+    font-weight: 400;
+}
+
+.line {
+    margin-top: 5px;
+}
+
+.imgTeam {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.teamCard {
+    margin-top: 80px !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .team {
+        padding: 10px 0px !important;
+        margin: 7px 0px !important;
+        background-color: #bbf29e;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgTeam {
+        width: 170px !important;
+        height: 170px !important;
+    }
+    /* .team {
+        padding: 10px 0px !important;
+        margin: 30px 50px !important;
+        background-color: #bbf29e;
+    } */
+}
+
+@media (max-width: 500px) {
+    .imgTeam {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .team {
+        padding: 10px 0px !important;
+        margin: 30px 50px !important;
+        background-color: #bbf29e;
+    }
+}

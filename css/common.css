@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* @font-face {
+    font-family: 'Al-Jazeera-Arabic';
+    src: url('../fonts/Al-Jazeera-Arabic-Regular.woff') format('woff2'), url('../fonts/') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    background-color: #147c5c;
+    height: 60px;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
+.logoText {
+    border-left: 2px solid #fff;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.btn_logOut {
+    background-color: #a0ee99;
+    border-radius: 7px;
+    padding: 3px 5px;
+}
+
+.btn_logOut a {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0, 60, 48, 1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list {
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.list:hover {
+    color: #fff;
+    background: #a0ee99;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+.header {
+    margin-top: -100px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.title {
+    font-size: 14px;
+    text-align: center;
+    /* font-weight: 200; */
+}
+
+.navbar-nav {
+    list-style-type: circle !important;
+    color: #fff !important;
+}
+
+#new {
+    border-radius: 10px;
+    box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.349);
+    margin-top: 55px;
+    padding: 15px;
+}
+
+#new h5 a {
+    /* font-weight: bold; */
+    color: white;
+}
+
+#new h5 a:hover {
+    text-decoration: none;
+}
+
+#new img {
+    width: 60px;
+    height: 60px;
+}
+
+#sidebar {
+    background: linear-gradient(to top, #1d4f2b, #2b7740, #369852);
+}
+
+.shadow_text {
+    box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.349);
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        display: none;
+    }
+    #new {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    #sidebar {
+        display: none;
+    }
+    #new {
+        margin-left: 85px;
+    }
+    .logoText {
+        font-size: 14px;
+    }
+}

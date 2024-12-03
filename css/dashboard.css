@@ -1,0 +1,51 @@
+.newBtn {
+    background: #1c4d2a;
+    color: #fff;
+    padding: 0px 35px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-left: 17px;
+}
+
+.table {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.edit {
+    background-color: #003c30;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.list ul {
+    list-style: square;
+}
+
+.dash {
+    color: #003c30;
+    font-weight: 400;
+}
+
+.line {
+    margin-top: 5px;
+}
+
+.dashLine {
+    box-shadow: 6px 0px 6px rgba(0, 0, 0, 0.349) !important;
+}
+
+.card {
+    background-color: #003c30 !important;
+    margin-top: 100px !important;
+}
+
+.table {
+    background: #d6ffd2 !important;
+}
+
+.table tr {
+    color: #003c30 !important;
+    font-weight: 400;
+}
